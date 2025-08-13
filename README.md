@@ -71,8 +71,10 @@ python brutRate.py -p COM3
 3. In normal mode:
    - Prints ASCII-readable responses immediately (strong indicator of correct baudrate)
    - Collects baudrates with non-ASCII output and reports them at the end
+   ![NormalMode](https://github.com/ZyWAC/UART-Baudrate-Tester/blob/c9e152daaf66998bcb0573ef93a713457ba8e2ed/images/NormalMode.png)
 4. In raw mode (`-a`):
-   - Shows all received data (limited to 20 characters) regardless of type, useful for non-text-based protocols
+   - Shows all received data (limited to 20 characters) regardless of type, useful for non-text-based protocols or noisy output
+   ![-a Mode](https://github.com/ZyWAC/UART-Baudrate-Tester/blob/c9e152daaf66998bcb0573ef93a713457ba8e2ed/images/-aMode.png)
 
 ## Common Use Cases
 
